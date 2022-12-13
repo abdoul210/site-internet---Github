@@ -255,5 +255,3 @@ const observerIntersectionAnimation = () => {
     skillsObserver.observe(skill);
   });
 }
-
-observerIntersectionAnimation();

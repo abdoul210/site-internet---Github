@@ -483,7 +483,6 @@ footer .socials li{
     padding: 0.7rem;
 }
 footer .socials a {
-    color: #FFF;
     border: 1px solid #fff;
     border-radius: 50%;
     padding: 1rem;
@@ -492,6 +491,7 @@ footer .socials a {
     display: flex;
     justify-content: center;
     transition: all .4s;
+    background-color: #EEE
 }
 
 footer .socials a:hover {
@@ -518,4 +518,7 @@ footer .socials a:hover {
     to{
         transform: translateX(0);
     }
+}
+.lead  {
+    padding-left: 2rem;
 }
